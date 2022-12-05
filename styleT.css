@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+
+}
+.child  {
+    width: 20%;
+    margin: 2%;
+    color: aqua;
+    border-radius: 2px;
+    
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+
+    
+
+}
+table{
+    width: 100%
+}
+tr{
+    height: 50px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+}
+td{
+    padding: 10px;
+}
+.btn{
+    width: 83px;
+    height: -webkit-fill-available;
+}
